@@ -1,0 +1,1 @@
+# springcloud-hystrix-segregation
