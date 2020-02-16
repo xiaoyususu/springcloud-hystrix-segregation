@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-eureka1" />
+        <module name="springcloud-eureka2" />
+        <module name="springcloud-provider1" />
+        <module name="springcloud-provider2" />
+        <module name="springcloud-segregation" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud-eureka1" target="1.6" />
+      <module name="springcloud-eureka2" target="1.6" />
+      <module name="springcloud-hystrix-segregation" target="1.6" />
+      <module name="springcloud-provider1" target="1.8" />
+      <module name="springcloud-provider2" target="1.8" />
+      <module name="springcloud-segregation" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
